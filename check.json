@@ -1,0 +1,29 @@
+{
+  "command": [
+    "{python}",
+    "app.py"
+  ],
+  "expected": {
+    "official_count": 2,
+    "overlap_count": 1,
+    "short_break_count": 1,
+    "overlaps": [
+      {
+        "official": "Ada",
+        "fixtures": [
+          "Court A opener",
+          "Court B qualifier"
+        ],
+        "overlap_minutes": 10
+      }
+    ],
+    "short_breaks": [
+      {
+        "official": "Ada",
+        "after": "Court B qualifier",
+        "before": "Court A quarterfinal",
+        "rest_minutes": 12
+      }
+    ]
+  }
+}
